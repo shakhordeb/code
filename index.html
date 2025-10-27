@@ -1,82 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pricing</title>
+    <title>Document</title>
     <style>
-        body{
-             font-family: "Poppins", sans-serif;
-        }
-        .title{
-            font-size: 30px;
-            text-align: center;
-           
-        }
-        .title:hover{
-            letter-spacing: 4px;
-            transition: 0.2s ease-in-out;
-            color: goldenrod;
-        }
-        .pricing{
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        .card {
             display: flex;
-            gap: 20px;
-            justify-content: center;
+            justify-content: space-around;
+            background-color: #037fff;
+            width: 700px;
+            height: 200px;
+            padding: 40px;
+           border-bottom: 20px solid rebeccapurple;
+            margin: auto;
+            border-radius: 10px;
+            align-items: center;
         }
-        .card{
-            background-color: goldenrod;
-            width: 200px;
-            height: 250px;
+        .card img{
+            width: 150px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+         .text h2, h3{
+            font-family:"Poppins", sans-serif;
+            font-size: 26px;
             text-align: center;
-            padding: 20px;
-            border-radius: 5px;
-        }
-        .card:hover{
-            background-color: #A72703;
-            transition: 0.5s ease-in;
+            font-style: italic;
             color: white;
-        }
-        .card button{
-            font-size: 20px;
-            padding-bottom: 10px;
-            background-color: rebeccapurple;
-            color: white;
-            border-radius: 5px;
-            outline: none;
-            padding: 10px 20px;
-            border: none;
-        }
-        .card button:hover{
-            background-color: white;
-            color: black;
-            transition: 0.2s ease;
-        }
-        .card ul li{
-            list-style-type: none;
-            font-size: 20px;
-            text-align: justify;
+            text-shadow: -3px 2px 4px #9100ff;
+            letter-spacing: 2px;
         }
     </style>
 </head>
+
 <body>
-    <h2 class="title">Upgrade To Pro+</h2>
-    <div class="pricing">
-        <div class="card">
-            <h2>For Individuals</h2>
-            <ul>
-                <li>1 Gb</li>
-                <li>No Support</li>
-            </ul>
-            <button>Buy Now</button>
-        </div>
-        <div class="card">
-            <h2>For Enterprice</h2>
-            <ul>
-                <li>10 Gb</li>
-                <li>Priority Support</li>
-            </ul>
-            <button>Buy Now</button>
+    <div class="card">
+        <img src="pic.jpg" alt="">
+        <div class="text">
+            <h2>Shakhor Debnath</h2>
+            <h3>Fontend-Developer</h3>
+            <h3>Bogura,Bangladesh</h3>
+
         </div>
     </div>
 </body>
+
 </html>
